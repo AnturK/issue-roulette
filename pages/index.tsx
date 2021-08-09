@@ -16,7 +16,7 @@ export default function Home({ issues }: InferGetStaticPropsType<typeof getStati
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <Head>
         <title>Issue Roulette</title>
-        <meta name="description" content="Pick random issue to" />
+        <meta name="description" content="Pick random issue to fix during the freeze." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
