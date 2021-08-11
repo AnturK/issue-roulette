@@ -49,6 +49,7 @@ export const getStaticProps = async (context: GetStaticPropsContext) => {
 
   const endpoint = 'https://api.github.com/graphql'
 
+  // Grab all open issues with "Bug" label
   const query = gql`
   query GetIssues($page_cursor: String){
     repository(owner:"${default_owner}", name:"${default_repo}") {
